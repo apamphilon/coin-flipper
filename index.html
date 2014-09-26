@@ -2,7 +2,6 @@
 <html>
 
 <head>
-
   <meta charset="UTF-8">
 
   <title>Heads or Tails - CodePen</title>
@@ -10,38 +9,35 @@
   <!-- smartphone viewport -->
   <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1; user-scalable=0;">
 
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/responsive.css">
-
+  <link rel="stylesheet" href="_css/reset.css">
+  <link rel="stylesheet" href="_css/style.css">
+  <link rel="stylesheet" href="_css/responsive.css">
+  <link href='http://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-
   <a href="https://github.com/apamphilon"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/52760788cde945287fbb584134c4cbc2bc36f904/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f77686974655f6666666666662e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png"></a>
-
-<link href='http://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'>
 
   <header>
   <h1>Simple Coin Flipper</h1>
   <h2>Coded in Vanilla JS by <a href="http://www.apamphilon.com">Alex Pamphilon</a></h2>
   </header>
 
-<div id="wrapper">
-    <div id=headsCount>
-      <h3>Heads</h3>
-      <p id="headsResultPara">0</p>
-    </div>
-    <div id=tailsCount>
-      <h3>Tails</h3>
-      <p id="tailsResultPara">0</p>
-    </div>
-  <div id="coin-wrapper">
-      <div id="coin" class="heads">  
+  <div id="wrapper">
+      <div id=headsCount>
+        <h3>Heads</h3>
+        <p id="headsResultPara">0</p>
       </div>
-      <p>The Coin has landed on <span id="result">Heads</span></p>
-      <button id="flipButton">Flip Coin</button>
-      <button id="resetButton">Reset</button>
+      <div id=tailsCount>
+        <h3>Tails</h3>
+        <p id="tailsResultPara">0</p>
+      </div>
+      <div id="coin-wrapper">
+        <div id="coin" class="heads">  
+      </div>
+        <p>The Coin has landed on <span id="result">Heads</span></p>
+          <button id="flipButton">Flip Coin</button>
+          <button id="resetButton">Reset</button>
       <div id="instructions">  
         <h4>Instructions:</h4>
           <ol>
@@ -49,12 +45,10 @@
             <li>Click Reset to Start over!</li>
           </ol>
       </div>
-</div>
+  </div>
 
-  <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
-
-  <script src="js/index.js"></script>
-
+  <script src='/jquery.js'></script>
+  <script src="_js/main.js"></script>
 </body>
 
 </html>
