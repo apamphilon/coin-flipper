@@ -1,0 +1,42 @@
+/* --------------------- below 480px is iphone above is small tablets/desktops -------------------------- */
+
+@media screen and (min-width: 480px) {
+	h2 {
+		font-size: 1em;
+	}
+}
+
+/* -------------------- Above 660px is regular desktop and regular tablet e.g. ipad ------------------------- */
+
+@media screen and (min-width: 660px) {
+	body {
+	}
+
+	#wrapper {
+	  	min-width: 600px;
+	}
+
+	h1 {
+		font-size: 5em;
+	}
+
+	#headsCount {
+		margin-left: 15%;
+	}
+
+	#tailsCount {
+	  	margin-right: 15%;
+	}
+
+	#instructions {
+		margin: 50px 0;
+	}
+
+	#coin-wrapper {
+		margin: 25px auto;
+	}
+
+	.heads, .tails {
+		padding-top: 0;
+}
+}
