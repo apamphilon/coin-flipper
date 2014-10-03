@@ -2,11 +2,12 @@
   max-width: 940px;
   margin: 0 auto;
   text-align: center;
+  padding-top: 40px;
 }
 
 header {
   background: rgb(255, 185, 3);
-  padding: 50px 20px 30px;
+  padding: 30px 20px;
   text-align: center;
 }
 
@@ -29,7 +30,7 @@ header {
 }
 
 #coin {
-  margin: 0 auto;
+  margin: 0 auto 30px;
   height: 150px;
   width: 150px;
 }
@@ -49,7 +50,13 @@ header {
 }
 
 button {
-  width: 200px;
+  width: 150px;
+  margin: 15px auto;
+  border: 1px solid rgb(155, 155, 155);
+  border-radius: 10px;
+  font-size: 16px;
+  background: white;
+  outline: none;
 }
 
 ol li {
@@ -59,13 +66,11 @@ ol li {
 }
 
 #instructions {
-  background: rgb(233, 230, 230);
+  background: rgb(155, 155, 155);
   margin: 10px 30px 0;
   padding: 20px;
-}
-
-#resetButton {
-  margin: 20px 0;
+  color: white;
+  border-radius: 10px;
 }
 
 /******** Fonts ********/
@@ -76,16 +81,18 @@ body {
 
 p {
   font-size: 1em;
-  margin: 30px;
+  margin: 10px;
 }
 
 h1 {
   font-size: 3em;
-  background: white;
+  background: rgb(255, 191, 56);
   display: inline-block;
   padding: 40px;
   border-radius: 50px;
   letter-spacing: 5px;
+  color: white;
+  border: 1px solid white;
 }
 
 h2 {
@@ -93,10 +100,8 @@ h2 {
   font-size: 0.9em;
   padding: 10px;
   border-radius: 10px;
-  background: rgba(247, 185, 75, 1);
-  color: white;
+  background: rgba(255, 255, 255, 1);
   display: table;
-  border: 1px solid rgb(180, 118, 7);
 }
 
 h3 {
